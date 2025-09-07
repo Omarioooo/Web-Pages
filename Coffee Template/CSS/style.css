@@ -1,0 +1,114 @@
+/* ============== Global Variables ============== */
+:root{
+
+}
+/* ============== Global roles ============== */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.handwriting {
+    font-family: 'Architects Daughter', cursive;
+}
+.script {
+    font-family: 'Story Script', cursive;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+/* ============== Components ============== */
+.container {
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.section{
+    margin: 100px 0px;
+}
+/* ============== Header Section Styling ============== */
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+@media(min-width : 718px){
+    .menu{
+        display: none;
+    }
+}
+
+@media(max-width : 716px){
+    .header .container .social{
+        display: none;
+    }
+
+    .header .container .menu{
+        display: none;
+    }
+
+}
+
+.header .container ul{
+    position: absolute;
+    display: flex;
+    right: 175px;
+}
+
+.header .container .sections li{
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: center;
+}
+
+.header .container .social span{
+    padding: 0px 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+/* ============== Landing page Styling ============== */
