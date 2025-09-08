@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Shop</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="CSS/normalize.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?
-                    family=Open+Sans:ital,wght@0,300..800;1,300..800&
-                    family=Work+Sans:ital,wght@0,100..900;1,100..900&
-                    family=Architects+Daughter& 
-                    family=Story+Script&display=swap" rel="stylesheet">
+    family=Open+Sans:ital,wght@0,300..800;1,300..800&
+    family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&
+    family=Playfair+Display:ital,wght@0,400;0,700;1,400&
+    family=Architects+Daughter&
+    display=swap" rel="stylesheet">
+
     <!-- Font Awesome Library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Main CSS File -->
     <link rel="stylesheet" href="CSS/style.css">
@@ -24,20 +28,290 @@
 <body>
     <div class="header">
         <div class="container">
-            <h3 class=".logo">Extra Caffeine</h3>
-            <ul class="sections">
+            <h3 class="logo">Extra Caffeine</h3>
+            <i class="fa-solid fa-bars fa-2x menu"></i>
+            <ul class="sections handwriting">
                 <li>Home</li>
                 <li>Coffee</li>
                 <li>Offers</li>
                 <li>News</li>
                 <li>Contact</li>
             </ul>
-            <i class="fa-solid fa-bars fa-2x menu"></i>
             <p class="social">
                 <span><i class="fa-brands fa-facebook-f"></i></span>
                 <span><i class="fa-brands fa-instagram"></i></span>
                 <span><i class="fa-solid fa-envelope"></i></span>
             </p>
+        </div>
+    </div>
+
+    <div class="landing torn-paper-bottom">
+        <div class="content">
+            <h2 class="logo-font">Extra Caffeine</h2>
+            <P class="handwriting">drink your favorite coffee</P>
+            <p>we have all kinds of coffee ,so if you love coffee<br>
+                ,you should follow us in social media and in our website<br>
+                we will show now many kind of coffee<br>
+                so we wish that you love it</p>
+            <a href="#">BUY NOW</a>
+        </div>
+    </div>
+
+    <div class="offers section">
+        <div class="container">
+            <i class="fa-solid fa-angle-right right-arrow"></i>
+            <i class="fa-solid fa-angle-left left-arrow"></i>
+            <h2>Offers this week</h2>
+            <div class="offers-wrapper">
+                <div class="card">
+                    <div class="img">
+                        <img src="Images/French-Coffee.jpg" alt="coffee">
+                        <a class="handwriting" href="#">BUY NOW</a>
+                    </div>
+                    <p class="drink-name">French Coffee</p>
+                    <p class="price">
+                        <span class="after-discounted">20</span>
+                        <span class="before-discounted">30</span>
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="Images/Brazilin-Coffee.avif" alt="coffee">
+                        <a class="handwriting" href="#">BUY NOW</a>
+                    </div>
+                    <p class="drink-name">Brazilin Coffee</p>
+                    <p class="price">
+                        <span class="after-discounted">25</span>
+                        <span class="before-discounted">32</span>
+                    </p>
+                </div>
+                <div class="card display-off-one">
+                    <div class="img">
+                        <img src="Images/MexicoCoffee.avif" alt="coffee">
+                        <a class="handwriting" href="#">BUY NOW</a>
+                    </div>
+                    <p class="drink-name">Mexico Coffee</p>
+                    <p class="price">
+                        <span class="after-discounted">30</span>
+                        <span class="before-discounted">40</span>
+                    </p>
+                </div>
+                <div class="card display-off-one  display-off-three">
+                    <div class="img">
+                        <img src="Images/Spain-Coffee.avif" alt="coffee">
+                        <a class="handwriting" href="#">BUY NOW</a>
+                    </div>
+                    <p class="drink-name">Spain Coffee</p>
+                    <p class="price">
+                        <span class="after-discounted">40</span>
+                        <span class="before-discounted">50</span>
+                    </p>
+                </div>
+                <div class="card display-off-one">
+                    <div class="img">
+                        <img src="Images/Iced-Americano.avif" alt="coffee">
+                        <a class="handwriting" href="#">BUY NOW</a>
+                    </div>
+                    <p class="drink-name">Iced Americano</p>
+                    <p class="price">
+                        <span class="after-discounted">22</span>
+                        <span class="before-discounted">34</span>
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="Images/Iced-Cappuccino.webp" alt="coffee">
+                        <a class="handwriting" href="#">BUY NOW</a>
+                    </div>
+                    <p class="drink-name">Iced Cappuccino</p>
+                    <p class="price">
+                        <span class="after-discounted">25</span>
+                        <span class="before-discounted">35</span>
+                    </p>
+                </div>
+                <div class="card display-off-one display-off-three">
+                    <div class="img">
+                        <img src="Images/Iced-Caramel.avif" alt="coffee">
+                        <a class="handwriting" href="#">BUY NOW</a>
+                    </div>
+                    <p class="drink-name">Iced Caramel</p>
+                    <p class="price">
+                        <span class="after-discounted">40</span>
+                        <span class="before-discounted">45</span>
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="Images/Frappuccino.avif" alt="coffee">
+                        <a class="handwriting" href="#">BUY NOW</a>
+                    </div>
+                    <p class="drink-name">Frappuccino</p>
+                    <p class="price">
+                        <span class="after-discounted">43</span>
+                        <span class="before-discounted">60</span>
+                    </p>
+                </div>
+            </div>
+            <ul class="bullets">
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="subscribe torn-paper-top torn-paper-bottom">
+        <div class="content">
+            <h3>50% OFF</h3>
+            <p>Sunday Special Offer</p>
+            <p>Only for Sunday from 1st Jan to 30th Jan 2045</p>
+            <form>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="mail" placeholder="Your Email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </div>
+
+    <div class="about section">
+        <div class="container">
+            <div class="main-text">
+                <h2>about us</h2>
+                <p>Serving Since 1950</p>
+            </div>
+            <div class="about-body">
+                <div class="story col">
+                    <h3>Our Stroy</h3>
+                    <p>Eos kasd eos dolor vero vero, lorem stet diam rebum.
+                        Ipsum amet sed vero dolor sea</p>
+                    <p class="elegant-font">Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy
+                        kasd sed dolor eos diam
+                        lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo
+                        sit ut. Labor diam sed ipsum et eirmod</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="image">
+                    <div class="image-container">
+                        <img src="Images/about.png" alt="">
+                    </div>
+                </div>
+                <div class="vision col">
+                    <h3>Our Vision</h3>
+                    <p class="elegant-font">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem
+                        ipsum ut sed eos,
+                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
+                        dolor</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                    </ul>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="quote section torn-paper-bottom torn-paper-top elegant-font">
+        <div class="container">
+            <div class="content">
+                <q>Life is too short for bad coffee.</q>
+                <p class="handwriting">-Someone-</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="container">
+            <div class="main-text">
+                <h2>Our Services</h2>
+                <p>Fresh & Organic Beans</p>
+            </div>
+            <div class="services-wrapper">
+                <div class="box">
+                    <div class="srv-image">
+                        <img src="Images/service-1.jpg" alt="services">
+                    </div>
+                    <div class="srv-content">
+                        <h3>Fastest Door Delivery</h3>
+                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                            invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="srv-image">
+                        <img src="Images/service-2.jpg" alt="service">
+                    </div>
+                    <div class="srv-content">
+                        <h3>Fresh Coffee Beans</h3>
+                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                            invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="srv-image">
+                        <img src="Images/service-3.jpg" alt="service">
+                    </div>
+                    <div class="srv-content">
+                        <h3>Best Quality Coffee</h3>
+                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                            invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="srv-image">
+                        <img src="Images/service-4.jpg" alt="service">
+                    </div>
+                    <div class="srv-content">
+                        <h3>Online Table Booking</h3>
+                        <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                            invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer torn-paper-top">
+        <div class="content">
+            <div class="info box">
+                <h2 class="tittle">get in touch</h2>
+                <p class="street">123 Street, New York, USA</p>
+                <p class="phone">+012 345 67890</p>
+                <p class="mail">info@example.com</p>
+            </div>
+            <div class="social box">
+                <h2 class="tittle">Follow us</h2>
+                <p class="text">Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
+                <p class="social">
+                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-linkedin-in"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                </p>
+            </div>
+            <div class="work-hours box">
+                <h2 class="title">Working Hours</h2>
+                <div>
+                    <p>MONDAY - FRIDAY</p>
+                    <p>8.00 AM - 8.00 PM</p>
+                </div>
+                <div>
+                    <p>Saturday - Sunday</p>
+                    <p>2.00 PM - 8.00 PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="sign-in box">
+            <p>Subscribe for all news</p>
+            <form>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="mail" placeholder="Your Email">
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+        <div class="copy-right">
+            <p>Copyright <span>© Omariooo</span>. All Rights Reserved.</p>
         </div>
     </div>
 </body>
