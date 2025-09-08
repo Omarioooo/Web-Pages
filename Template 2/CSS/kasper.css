@@ -156,7 +156,7 @@ ul {
     left: 15px;
     width: calc(100% - 30px);
     height: 1px;
-    background: var(--font-color); /* Fixed undefined var(--pseudo-color) */
+    background: var(--font-color);
 }
 
 /* Navigation bar styling */
